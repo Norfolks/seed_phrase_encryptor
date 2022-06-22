@@ -11,8 +11,8 @@ parser.add_argument('--password', type=str, required=True)
 parser.add_argument("-i", help="Input file path.", type=str)
 parser.add_argument("-o", help="Output file path.", type=str)
 
-SALT = b"BIG_CRYPTO_SALT_FROM_NOWHERE_IT_IS_VERY_SECURE"
-NONCE = b"12345678"
+SALT = b"BIG_CRYPTO_SALT_FROM_NOWHERE_IT_IS_VERY_SECURE_TO_SALT_YOUR_PASSWORD_FOR_SEED_PHRASE"
+NONCE = b"qm7ybd[."
 
 with open('words', 'r') as words_file:
     i2w_dict = {index: line.strip() for index, line in enumerate(words_file)}
