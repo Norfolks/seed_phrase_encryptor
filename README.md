@@ -22,3 +22,12 @@ You receive encrypted seed in the `encrypted_seed` file. To decrypt run:
 python main.py decrypt --password [your_password]
 ```
 You decrypted seed now stores in the `decrypted_seed` file.
+
+## Example
+The seed phrase:
+
+```shuffle history cushion gain space prosper chicken proof enjoy absorb market light```
+
+Encrypted with password "io":
+
+```dragon oven barrel book basket obscure pet close chronic order cost silent```
